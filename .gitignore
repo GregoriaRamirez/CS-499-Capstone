@@ -1,0 +1,23 @@
+﻿# Ignore Python virtual environment
+venv/
+ENV/
+env/
+
+# Ignore environment variables and secrets
+.env
+example.env
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+*.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/
