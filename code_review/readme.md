@@ -14,19 +14,19 @@ Welcome to the Code Review section of my CS 499 Capstone project. This page feat
 
 ## 📌 Review Summary
 
-- ✅ Reviewed original artifact from CS 340: Animal Shelter Dashboard
-- 🔐 Focused on Software Design, Algorithms & Data Structures, and Database enhancements
-- 📂 Showcased code modularization, credential security, and improved filtering logic
-- 💡 Explained enhancements using examples, inline comments, and visual output
+- ✅ Reviewed original artifact from CS 340: Animal Shelter Dashboard  
+- 🔐 Focused on Software Design, Algorithms & Data Structures, and Database enhancements  
+- 📂 Showcased code modularization, credential security, and improved filtering logic  
+- 💡 Explained enhancements using examples, inline comments, and visual output  
 
 ## 📁 Project Links
 
-- [Original Code Folder](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/original_code)
-- [Enhanced Code Folder](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/enhanced_code)
-- [Animal Shelter Dashboard Screenshot](/assets/Animal_Shelter_Dashboard.png)
+- 📁 [Original Code on GitHub](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/original_code)
+- 📁 [Enhanced Code (GitHub Pages)](https://gregoriaramirez.github.io/artifact-software)
+- 🖼️ [Screenshot: Animal Shelter Dashboard](/assets/Animal_Shelter_Dashboard.png)
 
 ## 📝 Related Artifacts
 
-- [Software Design & Engineering](artifact-software.md)
-- [Algorithms & Data Structures](artifact-algorithms.md)
-- [Database Integration](artifact-databases.md)
+- [🔗 View Full Enhancement – Software Design & Engineering](artifact-software.md)
+- [🔗 View Full Enhancement – Algorithms & Data Structures](artifact-algorithms.md)
+- [🔗 View Full Enhancement – Database Integration](artifact-databases.md)
