@@ -1,1 +1,272 @@
+CS 499 Module One Assignment Template 
+
+
+I.	Self-Introduction: 
+
+A.	How long have you been in the Computer Science program?
+My name is Gregoria Ramirez, and I have been in the Computer Science program since June 2022 at SNHU, I graduated last May 2024 with my associate in computer science, and this year in August I will be finished with my studies for my bachelor’s degree. I plan to return for my masters. 
+
+B.	What have you learned while in the program? List three of the most important concepts or skills you have learned.
+I have learned the importance of understanding how a computer works and its functions to be able to create code to run smoothly using ethical  practices. I have learned that there are various programming languages to write code, and  they are used in different tasks with different software. I also have learned you have to have critical thinking skills and be able to solve problems to be able to code efficiently. I have also learned the importance of using version control and saving code frequently to avoid data loss and maintain a reliable workflow. I have also learned in checking small blocks of code and saving any changes. 
+
+C.	Discuss the specific skills you aim to demonstrate through your enhancements to reach each of the course outcomes.
+The skills I want to highlight through my enhancements include improving the overall look of my project, especially the charts I added to better display the data. I’m also adding filters to give users more options for sorting and viewing the information. On the backend, I plan to clean up my code by organizing it into separate folders and functions. This will make the code more modular and easier to work with, instead of having everything in one long script. It also helps with debugging, testing, and keeping things scalable.
+
+D.	How do the specific skills you will demonstrate align with your career plans related to your degree?
+The skills that I will demonstrate will align with my career by showing that I can effectively apply critical thinking, write modular code, and collaborate with teams to ensure smooth project development and transitions in the workplace. My skills will also show that I am always teachable to further my career. 
+
+E.	How does this contribute to the specialization you are targeting for your career?
+This supports my focus in the computer science field because the skills I am learning can be used in many different jobs. Being able to think clearly, write clean and organized code, and work well with others helps me solve problems and finish tasks in a better way. Good communication is also important because I need to understand what is expected by others, no matter what kind of project I am working on. These skills make me feel more confident and better prepared for any challenges I may face in this field.
+
+II.	ePortfolio Set Up: 
+
+A.	Submit a screen capture of your ePortfolio GitHub Pages home page that clearly shows your URL. 
+i.	You already have a repository in GitHub where you uploaded projects in previous courses. Your ePortfolio will reside in GitHub but can link to work at other sites, such as Bitbucket.
+
+B.	Use the GitHub Pages link in the Resource section for directions on:
+i.	How to create your GitHub website and publish code to GitHub Pages 
+ii.	Issues, such as adding links to other sites 
+
+C.	Paste a screenshot of your GitHub Pages home page with your URL clearly showing in the space below.        https://gregoriaramirez.github.io/ 
+
+ 
+III.	Enhancement Plan: 
+
+A.	Category One: Software Engineering and Design
+i.	Select an artifact that is aligned with the software engineering and design category and explain its origin. Submit a file containing the code for the artifact you choose with your enhancement plan. 
+
+I chose my final project from CS 340, which is a dashboard website I created for an animal shelter. I originally built it using Jupyter Notebook, where I worked with Python files (.ipynb) and CSV files to process and display the data. I also used the MongoDB shell to run database commands and interact with the data directly. The app is written in Python and uses a tool called Dash, which helps turn the data into interactive charts, maps, and tables. The dashboard pulls animal records from a NoSQL database and shows them in a way that’s easy to understand and use. Users can search, filter, and explore the data to help make decisions or track shelter activity.
+This project aligns with the software engineering and design category because it required me to design the user interface, structure the backend logic, and manage how data flows between the database and the app. It involves decisions about how to organize code, how to present information visually, and how to build a responsive system that supports real-time user interaction.
+Note: Your artifact may be work from the following courses:
+
+•	IT 145: Foundation in Application Development  
+•	CS 250: Software Development Lifecycle  
+•	CS 260: Data Structures and Algorithms  
+•	IT 315: Object Oriented Analysis and Design  
+•	CS 320: Software Testing, Automation, and Quality Assurance  
+•	CS 330: Computational Graphics and Visualization  
+•	CS 340: Advanced Programming Concepts  
+•	CS 350: Emerging Systems Architectures and Technologies  
+•	CS 360: Mobile Architecture and Programming  
+•	IT 365: Operating Environments  
+•	IT 380: Cybersecurity and Information Assurance  
+•	CS 405: Secure Coding  
+•	CS 410: Reverse Software engineering  
+•	IT 340: Network and Telecommunication Management  
+•	IT 380: Cybersecurity and Information Assurance  
+
+ii.	Describe a practical, well-illustrated plan for enhancement in alignment with the category, including a pseudocode or flowchart that illustrates the planned enhancement. 
+
+To improve my project, I plan to move it out of Jupyter Notebook and stop using the MongoDB shell. Instead, I will use Visual Studio Code for development and MongoDB Compass for managing the database. This change will make it easier to organize files, manage code, and interact with the database using a visual tool instead of manually typing commands. I also plan to restructure the code into multiple folders to follow a modular design which will separate the layout, callbacks, and data-handling logic into clearly organized parts.
+The database interaction will be improved by moving from manual shell commands to a more visual and manageable environment with Compass. These updates will make the project easier to maintain, debug, and expand in the future. The new structure will make the code easier to read, update, and scale in the future. By switching tools and organizing the project like a real-world application, I’m moving from a simple, beginner-level version to something that looks and works more like a professional product.
+This kind of upgrade will change the way I work on the project, how the code is set up, and how everything runs. It makes the project easier to manage, lets me use better tools, and makes it look more professional. 
+My flow chart is as follows :
+
+   [Jupyter Notebook] 
+         ↓
+ [Single file with code, UI, and DB logic]
+         ↓
+ [MongoDB Shell for manual queries]
+         ↓
+ [Hardcoded credentials, no logging]
+
+      ↓↓↓  ENHANCEMENTS  ↓↓↓
+
+   [VS Code Environment]
+         ↓
+ [Modular files: model.py, view.py, controller.py]
+         ↓
+ [MongoDB Compass for visual DB management]
+         ↓
+ [.env for credentials | logging added | MVC pattern]
+
+Pseudocode:
+Main App:
+  Load the layout for the user interface
+  Import the AnimalShelter class
+  Register callback functions for interactivity
+  Start the Dash server
+
+AnimalShelter class:
+  Connect to the MongoDB database
+  Define the following methods:
+    create() – insert a new record
+    read() – retrieve records using filters
+    update() – modify existing records
+    delete() – remove records
+
+
+For this category of enhancement, consider improving a piece of software, transferring a project into a different language, reverse engineering a piece of software for a different operating system, or expanding a project’s complexity. These are just recommendations. Consider being creative and proposing an alternative enhancement to your instructor.
+
+Think about what additions to include to complete the enhancement criteria in this category. Since one example option is to port to a new language, that is the kind of scale that is expected. This does not mean you need to port to a new language but instead have an equivalent scale of enhancement. Underlying expectations of any enhancement include fixing errors, debugging, and cleaning up comments, but these are not enhancements themselves.   
+
+iii.	Explain how the planned enhancement will demonstrate specific skills and align with course outcomes. 
+
+a.	Identify and describe the specific skills you will demonstrate that align with the course outcome.
+
+By improving my project, I will demonstrate my ability to organize and structure code using professional development practices. Specifically, I plan to refactor the application into modular components, which supports maintainability and scalability. This directly aligns with the course outcome related to software design and engineering principles. Additionally, I will transition from using beginner tools like Jupyter Notebook and MongoDB shell to industry-standard tools such as Visual Studio Code and MongoDB Compass. These changes reflect real-world development workflows and show that I can build projects using modern, scalable, and professional environments. This demonstrates my readiness for real job roles and aligns with the course outcome of applying software development tools and techniques in the software lifecycle.
+
+b.	Select one or more of the course outcomes below that your enhancement will align with.
+
+My enhancement will align with Number 3 and 4 below :
+-Outcome 3: Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices.
+- Outcome 4: Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
+
+
+Course Outcomes: 
+
+1.	Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science.  
+2.	Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.  
+3.	Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices.  
+4.	Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
+5.	Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.  
+
+B.	Category Two: Algorithms and Data Structures
+
+i.	Select an artifact that is aligned with the algorithms and data structures category and explain its origin. Submit a file containing the code for the artifact you choose with your enhancement plan. You may choose work from the courses listed under Category One.
+
+To enhance this part of the project, I selected the same artifact from my CS 340: Advanced Programming Concepts course — the animal shelter dashboard. This artifact is a web-based client-server application built using Python, Dash, and MongoDB, which displays real-time shelter data through charts and filters. In its original form, the app allowed basic filtering for rescue types, such as water rescues or disaster responses.
+To align this artifact with the algorithms and data structures category, I plan to enhance the project by expanding the filtering features. Specifically, I will add new filters that allow users to sort animal records by breed and by color. These filters will give users more control over the dataset and improve the interactivity of the dashboard. To support this functionality, I will implement condition-based logic and write new filtering algorithms that respond to user input, update the underlying pandas DataFrame, and refresh the visualizations in real time. This will demonstrate my ability to apply algorithmic principles and control structures to solve a real-world problem through data manipulation and filtering.
+
+ii.	Describe a practical, well-illustrated plan for enhancement in alignment with the category, including a pseudocode or flowchart that illustrates the planned enhancement.
+
+To improve the logic and structure of my project, I plan to add new filters that allow users to narrow down the dataset by breed and by color. These options will enhance interactivity by letting users explore shelter outcomes more specifically. Currently, the dashboard only supports basic filters like rescue type, so these improvements will add more control and flexibility for end users.
+I will implement these filters using condition-based logic in Python. When a user selects a breed or color from a dropdown menu, the app will apply logical checks and dynamically update the output based on the selected values. This will involve working with pandas DataFrames and writing filtering conditions that respond to user input in real time. These updates will demonstrate my ability to use control flow, algorithmic decision-making, and structured data manipulation in a real-world setting.
+
+The pseudocode example of how this new logic will work:
+
+When the user selects a breed or color from the filter:
+     Capture the selected input
+     Apply filtering logic:
+        If breed filter is selected:
+            filtered_data = dataframe[dataframe["breed"] == selected_breed]
+        If color filter is selected:
+            filtered_data = dataframe[dataframe["color"] == selected_color]
+     Update the charts and tables with filtered_data
+
+#  Adding a flow chart for logic functioning 
+[User selects a filter option]
+           ↓
+[Check if breed or color was selected]
+           ↓
+[Apply condition-based logic]
+    
+    [ If breed is selected:                            
+       filtered_data =          
+       df[df["breed"] == breed]  
+    
+      [  If color is selected:      
+       filtered_data =           
+       df[df["color"] == color]  
+           ↓
+[Update charts, tables, map]
+           ↓
+[Display updated results]
+By implementing this filtering logic, I will showcase my skills in condition-based programming, structured data querying, and algorithmic decision-making , which directly supports the course outcomes related to algorithm development and data structure manipulation.
+
+
+
+For this category of enhancement, consider improving the efficiency of a project or expanding the complexity of the use of data structures and algorithms for your artifact. These are just recommendations. Consider being creative and proposing an alternative enhancement to your instructor. Note: You only need to choose one type of enhancement per category. 
+ 
+Think about what additions to include to complete the enhancement criteria in this category. Since one example option is to port to a new language, that is the kind of scale that is expected. Perhaps you might increase the efficiency and time complexity of an algorithm in an application and detail the logic of the increased time complexity. Remember, you do not need to port to a new language but instead have an equivalent scale of enhancement. Underlying expectations of any enhancement include fixing errors, debugging, and cleaning up comments, but these are not enhancements themselves.  
+
+By adding breed and color filters to my project, I will demonstrate my ability to apply logic and condition-based control structures in a real-world application. These filters rely on algorithms that evaluate user input and dynamically adjust the data view using pandas DataFrames. This shows that I can work with structured data efficiently and apply filtering conditions in a way that improves interactivity and usability.
+
+This enhancement also demonstrates my understanding of how to build simple, functional algorithms that respond to input and return accurate results. It ties directly to the CS 499 course outcome related to applying algorithms and data structures to solve problems and support program functionality. The filtering logic I am implementing is not just about presentation — it shows my ability to manipulate data using algorithmic thinking in a way that supports user-centered design.
+
+a.	Select one or more of the course outcomes listed under Category One that your enhancement will align with.
+
+- Outcome 3: Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices.
+- Outcome 4: Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
+
+
+C.	Category Three: Databases
+
+i.	Select an artifact that is aligned with the databases category and explain its origin. Submit a file containing the code for the artifact you choose with your enhancement plan. You may choose work from the courses listed under Category One.
+
+For this category, I selected my animal shelter dashboard project from CS 340: Advanced Programming Concepts. This project is a web-based client-server application built using Python, Dash, and MongoDB. I originally developed it in Jupyter Notebook and used the MongoDB shell to interact with a NoSQL database. I imported a CSV file containing animal records and used the data to generate charts and tables inside the app.
+
+In the original version, I accessed the database by manually typing commands into MongoDB shell. While functional, this method was inefficient, made error handling more difficult, and lacked structure. One of the main challenges I faced was managing the database queries and keeping track of how the data was being manipulated across different parts of the code. There was also no clear separation between the database logic and the dashboard interface.
+
+To improve this, I began using MongoDB Compass, which provides a visual way to explore, validate, and manage my database collections. Although the records were originally loaded using a script or the MongoDB shell, Compass helped me confirm that the data imported correctly and is structured as expected. It became a useful tool for ongoing validation, not just data entry. I also improved my project by reorganizing the database operations into Python methods for Create, Read, Update, and Delete (CRUD), which I integrated into my VS Code project.
+
+Now, when I run the Dash application locally, it connects to the MongoDB database using my enhanced code and displays live data pulled directly from the ACC records. This setup shows how I can connect backend code to a database and display dynamic results in a frontend interface, using tools like VS Code, Compass, and Dash together.
+
+This artifact aligns strongly with the databases category because it involves real-time interactions with a MongoDB database. Every chart and filter in the application reflects data retrieved through live database queries. By improving how I manage queries, structure CRUD logic, and connect my application to the database, I am demonstrating practical skills in database development and integration that align directly with the CS 499 course outcomes.
+
+ii.	Describe a practical, well-illustrated plan for enhancement in alignment with the category, including a pseudocode or flowchart that illustrates the planned enhancement.
+
+For this category, I plan to improve how my project connects to and interacts with the MongoDB database. In the original version, I used the MongoDB shell to type database commands manually. While this approach was functional, it was not efficient and made development more difficult. I now plan to use MongoDB Compass, which is a visual interface that allows me to browse collections, test queries such as { "outcome_type": "Adoption" }, and view my data in a more organized and user-friendly way. This tool upgrade will help me understand the data more clearly and reduce typing errors.
+
+In addition to using Compass, I also plan to improve the code structure by creating a separate Python class that handles all database operations. This class will include reusable methods for the four main database actions: Create, Read, Update, and Delete (CRUD). By separating this logic into its own file, the main application code will be easier to manage, and I can reuse the methods across different parts of the application. For example, instead of writing a full query every time I need to look up animal records, I will be able to call the read() method from my AnimalShelter class.
+
+Additionally, I will not include hardcoded credentials in the updated version of the application. Instead, I plan to follow best practices by keeping sensitive information like usernames, passwords, and URIs stored securely using environment variables. This reflects real-world security practices.
+
+These updates improve the way the application manages data and make the overall design more structured and professional. Although I am not changing the programming language, the improvements I am making to database interaction are equal in scale to rewriting the project in another language. I am changing the development workflow, introducing a new database tool, and applying structured programming practices. These changes reflect how real applications are developed and maintained in the industry.
+
+Pseudocode illustrates the planned enhancement as follows:
+
+Connect to MongoDB using Compass with secure URI
+If connection is successful:
+→ View database and test queries (example: { "color": "Black" })
+
+Define AnimalShelter class:
+- create(data): add new record
+- read(query): return results
+- update(query, new_data): update record
+- delete(query): delete record
+
+Use these methods in the main application:
+→ Call read() when user selects a filter (such as breed or color)
+→ Pass filtered data to update charts and tables
+Adding a flow chart :
+[User interacts with Dash filter (e.g., breed/color)]
+            ↓
+[Dash callback triggers read() method from AnimalShelter class]
+            ↓
+[read() method sends query to MongoDB]
+            ↓
+[MongoDB processes query and returns filtered results]
+            ↓
+[Dash updates charts, tables, and map using filtered data]
+            ↓
+[User sees updated information based on database output]
+
+
+For this category of enhancement, consider adding more advanced concepts of MySQL, incorporating data mining, creating a MongoDB interface with HTML/JavaScript, or building a full stack with a different programming language for your artifact. These are just recommendations; consider being creative and proposing an alternative enhancement to your instructor. Note: You only need to choose one type of enhancement per category.
+
+Think about what additions to include to complete the enhancement criteria in this category. Since one example option is to port to a new language, that is the kind of scale that is expected. Perhaps you might increase the efficiency and time complexity of an algorithm in an application and detail the logic of the increased time complexity. Remember, you do not need to port to a new language but instead have an equivalent scale of enhancement. Underlying expectations of any enhancement include fixing errors, debugging, and cleaning up comments, but these are not enhancements themselves.
+
+iii.	Explain how the planned enhancement will demonstrate specific skills and align with course outcomes. 
+
+a.	Identify and describe the specific skills you will demonstrate that align with the course outcome.
+
+By enhancing the way my project interacts with the database, I will demonstrate the ability to structure and manage database connections in a more professional and scalable way. Instead of typing commands manually in the MongoDB shell, I will show that I can work with a more advanced and user-friendly database tool like MongoDB Compass to inspect and manage collections more efficiently. I will also apply object-oriented programming principles by separating the database logic into its own Python class. This allows me to build clean, reusable methods for Create, Read, Update, and Delete (CRUD) operations, improving both code organization and functionality.
+
+These enhancements reflect current software development practices and directly align with the CS 499 course outcome related to working with databases and implementing software components that support robust, scalable applications. By following industry standards for modular design, secure connections, and structured query handling, I am demonstrating that I can build maintainable systems that reduce errors and are easier to extend as project requirements change.
+
+b.	Select one or more of the course outcomes listed under Category One that your enhancement will align with.
+
+- Outcome 3: Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices.
+- Outcome 4: Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
+-outcome 5: Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources
+
+
+
+IV.	ePortfolio Overall Skill Set
+
+A.	Accurately describe the skill set to be illustrated by the ePortfolio overall.
+i.	Skills and outcomes planned to be illustrated in the code review
+
+My ePortfolio will highlight how I have grown from completing beginner-level coding tasks to building full projects using professional tools, modular design, and industry-standard practices. For example, the animal shelter dashboard project originally used one large Jupyter Notebook, but I have refactored it into a multi-file, organized structure using Visual Studio Code and Dash. This project now includes new filters, CRUD operations, and a map view, demonstrating that I can build functional, user-driven applications. These enhancements show my ability to write clean, maintainable code that interacts with real-time data and reflects a strong understanding of software development.
+
+ii.	Skills and outcomes planned to be illustrated in the narratives
+
+In the narratives, I will show how I learned to structure programs using object-oriented design, like separating database logic into its own Python class. I will explain how I now use tools such as Visual Studio Code for development and MongoDB Compass to test and manage data visually. I will also describe how I broke up the original code into modular components by separating layout, callbacks, and database functions, which supports readability and easier updates. These examples align with course outcomes related to software design, development techniques, and technical communication.
+
+iii.	Skills and outcomes planned to be illustrated in the professional self-assessment
+
+In the self-assessment, I will reflect on how my skills have developed throughout the Computer Science program. I will talk about how I transitioned from writing small scripts in a notebook to building interactive dashboards using Dash and MongoDB. I will highlight how my problem-solving skills improved, especially when debugging database queries or structuring reusable code. I will also explain how I plan to keep learning new technologies to stay current in the field, showing that I understand how to apply classroom knowledge to real-world development tasks and grow as a computer science professional.
+
+
 
