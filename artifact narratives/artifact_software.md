@@ -80,6 +80,7 @@ CS499Capstone/
 - [Original Code Folder](./original_code)
 - [Enhanced Code Folder](./enhanced_code)
 - [Video Walkthrough](https://www.youtube.com/embed/NTrtEVuawBM)
-- ![Screenshot](./assets/Animal_Shelter_Dashboard.png)
+- ![Screenshot](https://github.com/GregoriaRamirez/CS-499-Capstone/raw/main/data/Animal_Shelter_Dashboard.png)
+
 
 
