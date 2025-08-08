@@ -21,12 +21,13 @@ Welcome to the Code Review section of my CS 499 Capstone project. This page feat
 
 ## 📁 Project Links
 
-- 📁 [Original Code on GitHub](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/original_code)
-- 📁 [Enhanced Code (GitHub Pages)](https://gregoriaramirez.github.io/artifact-software)
-- 🖼️ [Screenshot: Animal Shelter Dashboard](/assets/Animal_Shelter_Dashboard.png)
+- 📁 [Original Code Folder](./original_code)
+- 📁 [Enhanced Code Folder](./enhanced_code)
+- 🖼️ [Screenshot: Animal Shelter Dashboard](./assets/Animal_Shelter_Dashboard.png)
 
 ## 📝 Related Artifacts
 
 - [🔗 View Full Enhancement – Software Design & Engineering](artifact-software.md)
 - [🔗 View Full Enhancement – Algorithms & Data Structures](artifact-algorithms.md)
 - [🔗 View Full Enhancement – Database Integration](artifact-databases.md)
+
