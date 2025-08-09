@@ -10,14 +10,14 @@ permalink: /artifact-databases
 # 💾 Databases Artifact
 
 ## 📌 Artifact Description
-For the databases category, I selected the backend database connection and retrieval code from my **Animal Shelter Dashboard** project. This project was originally built in **CS 340: Client-Server Development** using Jupyter Notebook with direct Mongo shell commands and hardcoded credentials.  
+For the databases category, I selected the backend database connection and retrieval code from my Animal Shelter Dashboard project. This project was originally built in CS 340: Client-Server Development using Jupyter Notebook with direct Mongo shell commands and hardcoded credentials.  
 
-For my **CS 499 Capstone**, I enhanced this component to make database access **more secure, modular, and production-ready**. The changes include secure credential management with `.env` files, structured logging, error handling, and automatic conversion of MongoDB documents into a pandas DataFrame for dashboard use.
+For my CS 499 Capstone, I enhanced this component to make database access more secure, modular, and production-ready. The changes include secure credential management with `.env` files, structured logging, error handling, and automatic conversion of MongoDB documents into a pandas DataFrame for dashboard use.
 
 ---
 
 ## 📎 Justification for Inclusion
-I chose this artifact because it demonstrates my ability to improve **database interaction security, maintainability, and efficiency**. The original version used a class with hardcoded credentials and no separation of database logic from the rest of the app. The enhanced version follows **professional best practices** for NoSQL database integration, ensuring a clean architecture and safer deployment.
+I chose this artifact because it demonstrates my ability to improve database interaction security, maintainability, and efficiency. The original version used a class with hardcoded credentials and no separation of database logic from the rest of the app. The enhanced version follows professional best practices for NoSQL database integration, ensuring a clean architecture and safer deployment.
 
 ---
 
@@ -124,10 +124,10 @@ def get_data():
 ---
 
 ## 🔍 Reflection
-Enhancing this artifact taught me the value of **treating the database layer as a separate, secure, and modular part of the application**.  
+Enhancing this artifact taught me the value of treating the database layer as a separate, secure, and modular part of the application.  
 One challenge was making the `get_data()` function flexible enough to work in different environments without changing the code. Another was ensuring that the dashboard still functioned correctly when no database connection was available — something the original code could not handle.
 
-This enhancement made the project **more secure, maintainable, and ready for real-world deployment**, and it reflects my growth in professional database integration for Python applications.
+This enhancement made the project more secure, maintainable, and ready for real-world deployment, and it reflects my growth in professional database integration for Python applications.
 
 ---
 
