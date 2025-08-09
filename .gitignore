@@ -1,11 +1,13 @@
-﻿# Ignore Python virtual environment
+# Ignore Python virtual environments
 venv/
 ENV/
 env/
+.venv/
 
-# Ignore environment variables and secrets
+# Ignore real environment variable files (but keep example)
 .env
-example.env
+*.env
+!.env_example   # Allow this safe example to be committed
 
 # Ignore compiled Python files
 __pycache__/
@@ -21,3 +23,7 @@ Thumbs.db
 
 # Ignore VS Code settings
 .vscode/
+
+# Ignore logs and temp files
+*.log
+*.tmp
