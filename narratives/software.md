@@ -15,7 +15,7 @@ In Module One, I originally planned to meet two outcomes, which were:
 
 **Outcome 3 (Software Design and Engineering):** I met this by applying modular design principles, following the MVC architecture, securing sensitive information with environment variables, and restructuring the application for better maintainability, performance, and scalability.  
 
-**Outcome 4 (Security Mindset):** I met this by ensuring sensitive information, such as database credentials, is stored securely using environment variables, and by applying secure coding practices to database queries to minimize vulnerabilities.
+**Outcome 4 (Techniques, Skills, and Tools in Computing Practices)**: I achieved this by using well-founded and innovative techniques such as MVC architecture, vectorized pandas’ operations for performance optimization, and environment-based configuration for security. These improvements demonstrate my ability to implement computing solutions using professional tools and practices that deliver value and meet industry standards.
 
 ## 🔄 Reflection on Enhancement Process
 Working on the enhancements helped me look at my code differently and focus more on structure and reusability. I split the code into separate files to follow the MVC pattern and kept the logic organized for easier maintenance. I applied secure coding practices, such as using a `.env` file to store sensitive information, and ensured my imports were modular and well-structured.
