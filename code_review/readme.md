@@ -22,7 +22,7 @@ Welcome to the Code Review section of my CS 499 Capstone project. This page feat
 ## 📁 Project Links
 
 - 📁 [Original Code on GitHub](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/original_code)  
-- 📁 [Enhanced Code on GitHub](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/enhanced_code)  
+- 📁 [Enhanced Code on GitHub](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/enhanced)  
 - 📁 [Enhanced Code (Live GitHub Pages)](https://gregoriaramirez.github.io/artifact-software)  
 - 🖼️ [Screenshot: Animal Shelter Dashboard](https://gregoriaramirez.github.io/assets/Animal_Shelter_Dashboard.png)
 
