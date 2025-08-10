@@ -3,13 +3,13 @@ layout: default
 title: Code Review
 permalink: /code-review
 ---
+**Navigation:**  
+[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [📂 Projects](projects.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
 # 🧪 Code Review – Capstone Walkthrough
 
 Welcome to the Code Review section of my CS 499 Capstone project. This page features my 23–30 minute video walkthrough where I review the original and enhanced code, explain my design decisions, and demonstrate how I applied computer science principles.
 
-**Navigation:**  
-[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [📂 Projects](projects.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
 # 🎥 Code Review – CS 499 Capstone
 
