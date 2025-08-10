@@ -8,9 +8,22 @@ permalink: /code-review
 
 Welcome to the Code Review section of my CS 499 Capstone project. This page features my 23–30 minute video walkthrough where I review the original and enhanced code, explain my design decisions, and demonstrate how I applied computer science principles.
 
-## 🎥 Walkthrough Video
+**Navigation:**  
+[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [📂 Projects](projects.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NTrtEVuawBM" title="Capstone Code Review Walkthrough" frameborder="0" allowfullscreen></iframe>
+# 🎥 Code Review – CS 499 Capstone
+
+<iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/NTrtEVuawBM" 
+  title="Animal Shelter Code Review – CS 499 Capstone" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+
+---
 
 ## 📌 Review Summary
 
