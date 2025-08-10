@@ -43,4 +43,4 @@ Welcome to the Code Review section of my CS 499 Capstone project. This page feat
 
 - [🔗 View Full Enhancement – Software Design & Engineering](https://gregoriaramirez.github.io/artifact-software)
 - [🔗 View Full Enhancement – Algorithms & Data Structures](https://gregoriaramirez.github.io/artifact-algorithms)
-- [🔗 View Full Enhancement – Database Integration](https://gregoriaramirez.github.io/artifact-databases)
+- [🔗 View Full Enhancement – Database](https://gregoriaramirez.github.io/artifact-databases)
