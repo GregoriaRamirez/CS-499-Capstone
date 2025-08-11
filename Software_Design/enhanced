@@ -1,3 +1,0 @@
-This folder contains the enhanced version of the Software Design artifact.
-Changes include modularized code structure, separation of UI (view.py) from backend logic (controller.py, model.py), removal of hardcoded credentials, and the use of __init__.py to organize the application into packages.
-requirements.txt and .env_example are included for portability and environment setup.
