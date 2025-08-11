@@ -1,0 +1,43 @@
+/* Make all images responsive */
+img { max-width: 100%; height: auto; }
+
+/* Desktop headshot (smaller as requested) */
+.top-left-photo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1000;
+}
+
+/* Optional logo sizing */
+.brand-logo {
+  width: 140px;
+  height: auto;
+}
+
+/* Content padding */
+.app-content { padding: 24px; }
+
+/* Mobile fixes */
+@media (max-width: 768px) {
+  .top-left-photo {
+    position: static;
+    display: block;
+    margin: 0 auto 15px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .app-content { padding: 16px; }
+}
+
+/* Example: background image on a header container */
+.header-with-bg {
+  background: url('/assets/img/logo.png') no-repeat 16px 50%;
+  background-size: 48px 48px;
+  padding-left: 80px; /* space for bg image */
+}
