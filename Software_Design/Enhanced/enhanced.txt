@@ -1,3 +1,0 @@
-This folder contains the enhanced database integration code.
-The updated model.py uses python-dotenv to securely load credentials from a .env file, adds error handling with timeouts, verifies the connection before queries, logs activity, and converts MongoDB documents to pandas DataFrames with cleaned columns.
-
