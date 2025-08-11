@@ -1,1 +1,3 @@
-
+This folder contains the original CS 340 project files before enhancements.
+The code shows a single-file structure with hardcoded credentials, limited modularity, and combined UI and backend logic.
+This version was used as the baseline for Software Design & Engineering enhancements.
