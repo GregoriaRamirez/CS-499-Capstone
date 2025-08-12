@@ -1,10 +1,3 @@
----
-layout: default
-title: Code Review
-permalink: /code-review
----
-**Navigation:**  
-[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [📂 Projects](projects.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
 # 🧪 Code Review – Capstone Walkthrough
 
