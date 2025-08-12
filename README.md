@@ -1,5 +1,9 @@
 # CS-499-Capstone – Animal Shelter MongoDB Dashboard
 
+<p align="center">
+  <img src="data/Grazioso%20Salvare%20Logo.png" alt="Grazioso Salvare Logo" width="250">
+</p>
+
 
 
 This repository contains my enhanced CS 499 Capstone project.  
