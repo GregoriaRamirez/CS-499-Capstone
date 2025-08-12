@@ -7,12 +7,12 @@ For the databases category, I selected the backend database connection and retri
 
 For my CS 499 Capstone, I enhanced this component to make database access more secure, modular, and production-ready. The changes include secure credential management with `.env` files, structured logging, error handling, and automatic conversion of MongoDB documents into a pandas DataFrame for dashboard use.
 
----
+
 
 ## 📎 Justification for Inclusion
 I chose this artifact because it demonstrates my ability to improve database interaction security, maintainability, and efficiency. The original version used a class with hardcoded credentials and no separation of database logic from the rest of the app. The enhanced version follows professional best practices for NoSQL database integration, ensuring a clean architecture and safer deployment.
 
----
+
 
 ## 📝 Examples Before and After Enhancements
 
@@ -46,7 +46,7 @@ class AnimalShelter:
 4. No structured logging for monitoring.
 5. Returned raw MongoDB results instead of a clean DataFrame.
 
----
+
 
 **Enhanced Code (After Enhancement):**
 ```python
@@ -98,7 +98,7 @@ def get_data():
             client.close()
 ```
 
----
+
 
 ## 🔑 Key Enhancements
 1. **Secure Credential Management** – Moved username, password, host, and database details into a `.env` file loaded with `python-dotenv`.
@@ -108,7 +108,6 @@ def get_data():
 5. **Automatic DataFrame Conversion** – Converted MongoDB documents directly to a pandas DataFrame and dropped the `_id` column for cleaner dashboards.
 6. **Connection Safety** – Ensured the MongoDB client closes after each operation to prevent resource leaks.
 
----
 
 ## 🎯 Alignment to Program Outcomes
 **Outcome 4 (Computing Tools and Practices):** Applied tools like pymongo, dotenv, and pandas to transform and serve real-time data from a database into an interactive dashboard. This was achieved by using pymongo to securely query MongoDB, processing and cleaning the results with pandas, and integrating the data into the Dash dashboard for live filtering and visualization.
@@ -116,7 +115,7 @@ def get_data():
 **Outcome 5 (Databases):** Developed a security mindset by implementing secure credential storage, exception handling, and proper connection cleanup for MongoDB using Python. This was achieved by replacing insecure, hardcoded credentials with environment variables loaded through python-dotenv, adding structured error handling, and ensuring the database client closes after each operation.
 
 
----
+
 
 ## 🔍 Reflection
 Enhancing this artifact taught me the value of treating the database layer as a separate, secure, and modular part of the application.  
