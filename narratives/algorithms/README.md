@@ -51,7 +51,7 @@ def update_dashboard(filter_type, selected_colors, selected_breeds):
 4. Handled multiple filter combinations properly so that filters work together instead of conflicting or overwriting each other.  
 5. Returned a clean, consistent data structure with `.to_dict('records')` that the dashboard can reliably use.
 
-These changes improved runtime efficiency, performance, and stability. For example, filtering a 3,000-row DataFrame down to just 150–300 relevant records per interaction significantly improved responsiveness during rapid user input, while also preventing crashes caused by empty fields or unmatched data.
+These changes improved runtime efficiency, performance, and stability. For example, filtering a 3,000-row DataFrame down to just 150–300 relevant records per interaction significantly improved responsiveness during rapid user input. The dashboard now responds smoothly to user interactions and avoids crashing due to empty fields or unmatched data.
 
 ## 🛡️ Additional Reliability Measures
 I added input checks to prevent the dashboard from crashing when users leave filters empty or select options with no matching data. This avoids errors that could make the app unstable or stop it from working. By catching missing data or null inputs early, I ensured predictable behavior in the interface, improving stability and reliability. While this is not the same as security features like login or encryption, it keeps the app functional and safe from data-handling issues that could cause failures. In the future, I plan to implement user authentication or role-based access control if the app were to go live.
