@@ -68,6 +68,3 @@ source venv/bin/activate
 
 ---
 
-## 🎥 Code Review Video
-
-[▶️ Watch the Code Review on YouTube](https://www.youtube.com/watch?v=DXgBW47WSRQ)
