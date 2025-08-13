@@ -1,7 +1,3 @@
-Here is your cleaned-up, fully clickable root `README.md` so it works perfectly on GitHub.
-I replaced the iframe with a proper YouTube link and ensured all paths are valid and clickable.
-
-````markdown
 # CS-499-Capstone – Animal Shelter MongoDB Dashboard
 
 <p align="center">
