@@ -1,7 +1,13 @@
 # Algorithms & Data Structures — Enhanced Artifact
 
 ## Description
-The enhanced version optimizes and simplifies filtering logic using vectorized Pandas methods, reducing repetition and improving performance.
+
+This enhanced artifact contains the refactored filtering and data processing logic for the Animal Shelter Dashboard, focusing on **Algorithms and Data Structures** improvements. The code now uses vectorized pandas operations such as `.isin()` and `.between()` to efficiently filter large datasets.  
+
+Filtering logic was separated from visualization logic, and reusable functions were created to handle different filtering types (breed, color, outcome). Input validation was added to prevent invalid selections from causing errors.  
+
+These changes made the dashboard faster, easier to maintain, and scalable for future enhancements.
+
 
 ## Key Enhancements
 - **Vectorized Filtering:** Used `.isin()` and `.between()` for faster data filtering.
