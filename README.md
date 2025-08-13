@@ -9,7 +9,6 @@ It is based on the Animal Shelter Dashboard originally developed in CS 340 and e
 
 ---
 
-Here’s your cleaned-up **📂 Project Structure** with the fixed links you said are correct:
 
 📂 **Project Structure**
 
@@ -26,9 +25,7 @@ Here’s your cleaned-up **📂 Project Structure** with the fixed links you sai
 - MongoDB (local or cloud instance)
 - Recommended: MongoDB Compass
 
-Here’s your **Installation** section rewritten cleanly so everything is clickable, step-by-step, and ready to paste into your README:
 
-````markdown
 ## 📦 Installation
 
 1. **Clone the repository**  
