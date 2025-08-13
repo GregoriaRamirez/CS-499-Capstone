@@ -1,7 +1,10 @@
 # Software Design & Engineering — Original Artifact
 
-## Description
-This is the original version of my Animal Shelter Dashboard project, created for CS 340: Client-Server Development. The project was developed in a Jupyter Notebook using Python, Dash, and MongoDB.
+This original artifact contains the Animal Shelter Dashboard code in its initial form, developed during CS 340: Client-Server Development. At this stage, the code was written in a single Jupyter Notebook without a clear modular structure. Backend logic, user interface elements, and database operations were combined in the same file, making the project harder to maintain and scale.
+
+The database connection string (MongoDB URI) was hardcoded directly in the script using school credentals, which posed security risks and made deployment to different environments more difficult. CRUD operations were implemented but lacked separation of concerns, meaning the database logic was tightly coupled with the application’s presentation layer.
+
+This version serves as the baseline for comparing later enhancements that introduced modular design, secure credential handling, and improved maintainability.
 
 ## Key Features
 - Built using Jupyter Notebook with direct database connection.
