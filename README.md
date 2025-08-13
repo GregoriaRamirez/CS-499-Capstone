@@ -9,12 +9,13 @@ It is based on the Animal Shelter Dashboard originally developed in CS 340 and e
 
 ---
 
-## 📂 Project Structure
-- [original_code/](original_code) – Original CS 340 project files  
-- [enhanced_code/](enhanced_code) – Enhanced CS 499 Capstone project files  
-- [software-enhancement/](software-enhancement) – Narrative and details for Software Design & Engineering category  
-- [algorithms-enhancement/](algorithms-enhancement) – Narrative and details for Algorithms & Data Structures category  
-- [databases-enhancement/](databases-enhancement) – Narrative and details for Databases category  
+📂 Project Structure
+
+- original_code/ – Original CS 340 project files
+- enhanced_code/ – Enhanced CS 499 Capstone project files
+- software-enhancement/ – Narrative and details for Software Design & Engineering category
+- algorithms-enhancement/ – Narrative and details for Algorithms & Data Structures category
+- databases-enhancement/ – Narrative and details for Databases category
 - [code-review/](code-review) – Code review video and narrative  
 
 ---
