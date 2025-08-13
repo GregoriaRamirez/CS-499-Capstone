@@ -1,24 +1,25 @@
+Here is your cleaned-up, fully clickable root `README.md` so it works perfectly on GitHub.
+I replaced the iframe with a proper YouTube link and ensured all paths are valid and clickable.
+
+````markdown
 # CS-499-Capstone – Animal Shelter MongoDB Dashboard
 
 <p align="center">
   <img src="data/Grazioso%20Salvare%20Logo.png" alt="Grazioso Salvare Logo" width="200">
 </p>
 
-
-
-
-This repository contains my enhanced CS 499 Capstone project.  
-It is based on the Animal Shelter Dashboard originally developed in CS 340 and enhanced to improve software design, algorithms & data structures, and database integration.
+This repository contains my enhanced CS 499 Capstone project.
+It is based on the Animal Shelter Dashboard originally developed in CS 340 and enhanced to improve Software Design, Algorithms & Data Structures, and Database Integration. All enhancements were applied to the same set of original project files, adapted to meet the specific goals of each category.
 
 ---
 
 ## 📂 Project Structure
-- `original_code/` – Original CS 340 project files
-- `enhanced_code/` – Enhanced CS 499 Capstone project files
-- `software-enhancement/` – Narrative and details for Software Design & Engineering category
-- `algorithms-enhancement/` – Narrative and details for Algorithms & Data Structures category
-- `databases-enhancement/` – Narrative and details for Databases category
-- `code-review/` – Code review video and narrative
+- [original_code/](original_code) – Original CS 340 project files
+- [enhanced_code/](enhanced_code) – Enhanced CS 499 Capstone project files
+- [software-enhancement/](software-enhancement) – Narrative and details for Software Design & Engineering category
+- [algorithms-enhancement/](algorithms-enhancement) – Narrative and details for Algorithms & Data Structures category
+- [databases-enhancement/](databases-enhancement) – Narrative and details for Databases category
+- [code-review/](code-review) – Code review video and narrative
 
 ---
 
@@ -30,15 +31,15 @@ It is based on the Animal Shelter Dashboard originally developed in CS 340 and e
 ---
 
 ## 📦 Installation
-1. Clone the repository  
+1. **Clone the repository**  
    ```bash
    git clone https://github.com/GregoriaRamirez/CS-499-Capstone.git
    cd CS-499-Capstone/enhanced_code
 ````
 
-2. Create a `.env` file in the project root with:
+2. **Create a `.env` file** in the project root with:
 
-   ```
+   ```env
    MONGO_USER=your_username
    MONGO_PASS=your_password
    MONGO_HOST=localhost
@@ -46,7 +47,8 @@ It is based on the Animal Shelter Dashboard originally developed in CS 340 and e
    MONGO_DB=aac
    MONGO_COL=animals
    ```
-3. Install dependencies:
+
+3. **Install dependencies**:
 
    ```bash
    pip install -r requirements.txt
@@ -62,16 +64,17 @@ From the `enhanced_code` folder, run:
 python app.py
 ```
 
-Open your browser to:
-`http://127.0.0.1:8050`
+Then open your browser to:
+
+```
+http://127.0.0.1:8050
+```
 
 ---
 
 ## 🎥 Code Review Video
-[Watch on YouTube](https://www.youtube.com/watch?v=DXgBW47WSRQ)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DXgBW47WSRQ" title="Animal Shelter Code Review – CS 499 Capstone" frameborder="0" allowfullscreen></iframe>
-
+[▶ Watch on YouTube](https://www.youtube.com/watch?v=DXgBW47WSRQ)
 
 ---
 
@@ -81,4 +84,6 @@ Open your browser to:
 * [Algorithms & Data Structures Enhancement](algorithms-enhancement/README.md)
 * [Databases Enhancement](databases-enhancement/README.md)
 * [Code Review](code-review/README.md)
+
+
 
