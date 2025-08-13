@@ -68,8 +68,10 @@ Open your browser to:
 ---
 
 ## 🎥 Code Review Video
+[Watch on YouTube](https://www.youtube.com/watch?v=DXgBW47WSRQ)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=NTrtEVuawBM)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DXgBW47WSRQ" title="Animal Shelter Code Review – CS 499 Capstone" frameborder="0" allowfullscreen></iframe>
+
 
 ---
 
