@@ -1,7 +1,11 @@
 # Software Design & Engineering — Enhanced Artifact
 
 ## Description
-This is the enhanced version of my Animal Shelter Dashboard project, completed for my CS 499 Capstone. The code was refactored to follow a modular MVC (Model-View-Controller) structure, with separated files for backend logic, UI, and database operations.
+
+This enhanced artifact contains the updated Animal Shelter Dashboard code, refactored for improved modularity and maintainability. The same enhanced code files are used here, but this README focuses on the **Software Design** improvements.
+
+The Animal Shelter Dashboard, completed for my CS 499 Capstone, was restructured to follow a modular MVC (Model-View-Controller) architecture. Backend logic, user interface, and database operations are separated into dedicated files, improving readability, scalability, and maintainability.
+
 
 ## Key Enhancements
 - **Modular Design:** Separated `model.py`, `view.py`, and `controller.py` for maintainability.
