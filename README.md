@@ -34,8 +34,13 @@ Here’s your **Installation** section rewritten cleanly so everything is clicka
    git clone https://github.com/GregoriaRamirez/CS-499-Capstone.git
    cd CS-499-Capstone/enhanced_code
 ````
+2. python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
 
-2. **Create a `.env` file** in the `enhanced_code` folder with:
+3. **Create a `.env` file** in the `enhanced_code` folder with:
 
    ```env
    MONGO_USER=your_username
@@ -46,19 +51,19 @@ Here’s your **Installation** section rewritten cleanly so everything is clicka
    MONGO_COL=animals
    ```
 
-3. **Install dependencies**
+4. **Install dependencies**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Run the application**
+5. **Run the application**
 
    ```bash
    python app.py
    ```
 
-5. **Open the dashboard** in your browser:
+6. **Open the dashboard** in your browser:
    [http://127.0.0.1:8050](http://127.0.0.1:8050)
 
 ---
