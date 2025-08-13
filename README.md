@@ -9,14 +9,16 @@ It is based on the Animal Shelter Dashboard originally developed in CS 340 and e
 
 ---
 
-📂 Project Structure
+Here’s your cleaned-up **📂 Project Structure** with the fixed links you said are correct:
 
-- original_code/ – Original CS 340 project files
-- enhanced_code/ – Enhanced CS 499 Capstone project files
-- software-enhancement/ – Narrative and details for Software Design & Engineering category
-- algorithms-enhancement/ – Narrative and details for Algorithms & Data Structures category
-- databases-enhancement/ – Narrative and details for Databases category
-- [code-review/](code-review) – Code review video and narrative  
+📂 **Project Structure**
+
+* [original\_code/](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/original_code) – Original CS 340 project files
+* [enhanced\_code/](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/enhanced) – Enhanced CS 499 Capstone project files
+* [software-enhancement/](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/Artifacts/Software/enhanced) – Narrative and details for Software Design & Engineering category
+* [algorithms-enhancement/](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/Artifacts/Algorithms/enhanced) – Narrative and details for Algorithms & Data Structures category
+* [databases-enhancement/](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/Artifacts/Databases/enhanced) – Narrative and details for Databases category
+* [code-review/](code-review) – Code review video and narrative  
 
 ---
 ## 🛠️ Prerequisites
