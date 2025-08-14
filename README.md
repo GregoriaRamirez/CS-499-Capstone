@@ -22,13 +22,12 @@ It is based on the Animal Shelter Dashboard originally developed in CS 340 and e
  - [🎥 Code Review Video – Watch on YouTube](https://www.youtube.com/watch?v=DXgBW47WSRQ)
 
 
-````
 ## 🛠️ Prerequisites
 - Python 3.10+
 - MongoDB (local or cloud instance)
 - Recommended: [MongoDB Compass](https://www.mongodb.com/try/download/compass)
 - Recommended: [Visual Studio Code](https://code.visualstudio.com/)
-
+---
 ## 📦 Installation
 
 1. **Clone the repository**  
