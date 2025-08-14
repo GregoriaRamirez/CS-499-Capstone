@@ -4,13 +4,15 @@
   <img src="data/Grazioso%20Salvare%20Logo.png" alt="Grazioso Salvare Logo" width="200">
 </p>
 
-This repository contains my enhanced CS 499 Capstone project.  
+## 🌐 My CS 499 ePortfolio  
+[Click here to view my full ePortfolio](https://gregoriaramirez.github.io/)  
+
+This repository contains my Southern New Hampshire University CS 499 Capstone project, which enhances my original CS 340 Animal Shelter Dashboard. 
 It is based on the Animal Shelter Dashboard originally developed in CS 340 and enhanced to improve **Software Design**, **Algorithms & Data Structures**, and **Database Integration**. While all my enhancements used the same original files, each category focuses on a different aspect of improvement.
 
 ---
 
-
-📂 **Project Structure**
+## 📂 Project Navigation
 
 - [original\_code/](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/original_code) – Original CS 340 project files
 - [enhanced\_code/](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/enhanced) – Enhanced CS 499 Capstone project files
