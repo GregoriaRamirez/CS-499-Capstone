@@ -21,28 +21,41 @@ It is based on the Animal Shelter Dashboard originally developed in CS 340 and e
 - [databases-enhancement/](https://github.com/GregoriaRamirez/CS-499-Capstone/blob/main/narratives/Databases/README.md) – Narrative and details for Databases category  
  - [🎥 Code Review Video – Watch on YouTube](https://www.youtube.com/watch?v=DXgBW47WSRQ)
 
----
+Here’s a cleaned-up, professional version of your section with consistent formatting, clear step labels, and properly fenced code blocks:
+
+````
 ## 🛠️ Prerequisites
 - Python 3.10+
 - MongoDB (local or cloud instance)
-- Recommended: MongoDB Compass
-
+- Recommended: [MongoDB Compass](https://www.mongodb.com/try/download/compass)
+- Recommended: [Visual Studio Code](https://code.visualstudio.com/)
 
 ## 📦 Installation
 
 1. **Clone the repository**  
-   [GitHub Repository](https://github.com/GregoriaRamirez/CS-499-Capstone)  
    ```bash
    git clone https://github.com/GregoriaRamirez/CS-499-Capstone.git
    cd CS-499-Capstone/enhanced_code
 ````
-2. python -m venv venv
-# Windows
-venv\Scripts\activate
-# macOS/Linux
-source venv/bin/activate
 
-3. **Create a `.env` file** in the `enhanced_code` folder with:
+2. **Create a virtual environment**
+
+   ```bash
+   python -m venv venv
+   ```
+
+   * **Windows**
+
+     ```bash
+     venv\Scripts\activate
+     ```
+   * **macOS/Linux**
+
+     ```bash
+     source venv/bin/activate
+     ```
+
+3. **Create a `.env` file** in the `enhanced_code` folder:
 
    ```env
    MONGO_USER=your_username
@@ -68,5 +81,7 @@ source venv/bin/activate
 6. **Open the dashboard** in your browser:
    [http://127.0.0.1:8050](http://127.0.0.1:8050)
 
----
+```
+
+
 
