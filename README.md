@@ -21,7 +21,6 @@ It is based on the Animal Shelter Dashboard originally developed in CS 340 and e
 - [databases-enhancement/](https://github.com/GregoriaRamirez/CS-499-Capstone/blob/main/narratives/Databases/README.md) – Narrative and details for Databases category  
  - [🎥 Code Review Video – Watch on YouTube](https://www.youtube.com/watch?v=DXgBW47WSRQ)
 
-Here’s a cleaned-up, professional version of your section with consistent formatting, clear step labels, and properly fenced code blocks:
 
 ````
 ## 🛠️ Prerequisites
