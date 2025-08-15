@@ -14,6 +14,7 @@ It is based on the Animal Shelter Dashboard originally developed in CS 340 and e
 
 ## 📂 Project Navigation
 
+- [Capstone Artifact Plan (DOCX)](https://github.com/GregoriaRamirez/CS-499-Capstone/blob/main/narratives/artifact_plan.docx)-Self Assessment 
 - [View Artifact Plan (DOCX)](https://github.com/GregoriaRamirez/CS-499-Capstone/blob/main/narratives/artifact_plan.docx)- Initial Artifact Plan
 - [original\_code/](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/original_code) – Original CS 340 project files
 - [enhanced\_code/](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/enhanced) – Enhanced CS 499 Capstone project files
