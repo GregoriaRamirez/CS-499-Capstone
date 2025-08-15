@@ -20,7 +20,8 @@ It is based on the Animal Shelter Dashboard originally developed in CS 340 and e
 - [algorithms-enhancement/](https://github.com/GregoriaRamirez/CS-499-Capstone/blob/main/narratives/algorithms/README.md) – Narrative and details for Algorithms & Data Structures category  
 - [databases-enhancement/](https://github.com/GregoriaRamirez/CS-499-Capstone/blob/main/narratives/Databases/README.md) – Narrative and details for Databases category  
 - [🎥 Code Review Video – Watch on YouTube](https://www.youtube.com/watch?v=DXgBW47WSRQ)
-- [📓 Code Review Journal (DOCX)](https://github.com/GregoriaRamirez/CS-499-Capstone/blob/main/code_review/code_review/Code_Review_Journal.docx)
+- [Code Review Journal](code_review/code_review_journal.md)
+
 
 
 ## 🛠️ Prerequisites
