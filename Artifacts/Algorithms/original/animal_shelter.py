@@ -1,6 +1,10 @@
 from pymongo import MongoClient
 from bson.objectid import ObjectId
 
+class DatabaseError(Exception):
+    """Custom exception for database errors."""
+    pass
+
 class AnimalShelter:
     """CRUD operations for Animal collection in MongoDB"""
 
@@ -14,65 +18,123 @@ class AnimalShelter:
         COL = 'animals'
         
         # Initialize MongoDB Connection
-        self.client = MongoClient('mongodb://%s:%s@%s:%d' % (USER, PASS, HOST, PORT))
-        self.database = self.client[DB]
-        self.collection = self.database[COL]
+        try:
+            self.client = MongoClient(f'mongodb://{USER}:{PASS}@{HOST}:{PORT}')
+            self.database = self.client[DB]
+            self.collection = self.database[COL]
+            print("Connected to MongoDB")
+        except Exception as e:
+            print(f"Error connecting to MongoDB: {e}")
+            raise DatabaseError(f"Failed to connect to database: {e}")
+
+    def close(self):
+        """Close the MongoDB connection"""
+        self.client.close()
+        print("MongoDB connection closed.")
 
     def create(self, data):
         """Inserts a document into the database"""
         if data and isinstance(data, dict):
-            result = self.collection.insert_one(data)
-            return bool(result.inserted_id)
+            try:
+                result = self.collection.insert_one(data)
+                return bool(result.inserted_id)
+            except Exception as e:
+                raise DatabaseError(f"Error inserting data: {e}")
         else:
             raise ValueError("Invalid data: must be a non-empty dictionary")
 
     def read(self, query={}):
         """Queries documents from the database"""
-        print(f"Query type: {type(query)}")  # Log query type
-        print(f"Query: {query}")  # Log the query
         if isinstance(query, dict):
-            result = list(self.collection.find(query))
-            return result if result else []
+            try:
+                result = list(self.collection.find(query))
+                # Convert ObjectId to string to prevent errors in JSON serialization
+                for document in result:
+                    document['_id'] = str(document['_id'])  # Convert ObjectId to string
+                return result if result else []  # Return empty list if no results
+            except Exception as e:
+                raise DatabaseError(f"Error reading from database: {e}")
         else:
             raise ValueError("Invalid query: must be a dictionary")
-        
+
     def update(self, query, update_data, multiple=False):
-        """Updates document(s) in the database
-        
-        Args:
-            query (dict): The query to find the document(s) to update.
-            update_data (dict): The key-value pairs to update.
-            multiple (bool): If True, updates all matching documents. If False, updates one document.
-        
-        Returns:
-            int: The number of documents modified.
-        """
+        """Updates document(s) in the database"""
         if not isinstance(query, dict) or not isinstance(update_data, dict):
             raise ValueError("Both query and update_data must be dictionaries.")
         
-        if multiple:
-            result = self.collection.update_many(query, {'$set': update_data})
-        else:
-            result = self.collection.update_one(query, {'$set': update_data})
-        
-        return result.modified_count
+        try:
+            if multiple:
+                result = self.collection.update_many(query, {'$set': update_data})
+            else:
+                result = self.collection.update_one(query, {'$set': update_data})
+            return result.modified_count
+        except Exception as e:
+            raise DatabaseError(f"Error updating database: {e}")
 
     def delete(self, query, multiple=False):
-        """Deletes document(s) from the database.
-        
-        Args:
-            query (dict): The query to find the document(s) to delete.
-            multiple (bool): If True, deletes all matching documents. If False, deletes one document.
-        
-        Returns:
-            int: The number of documents deleted.
-        """
+        """Deletes document(s) from the database"""
         if not isinstance(query, dict):
             raise ValueError("Query must be a dictionary.")
         
-        if multiple:
-            result = self.collection.delete_many(query)
+        try:
+            if multiple:
+                result = self.collection.delete_many(query)
+            else:
+                result = self.collection.delete_one(query)
+            return result.deleted_count
+        except Exception as e:
+            raise DatabaseError(f"Error deleting from database: {e}")
+
+    def validate_field(self, field_name):
+        """Validate that the field exists in the document schema."""
+        sample_document = self.collection.find_one()
+        if sample_document and field_name in sample_document:
+            return True
         else:
-            result = self.collection.delete_one(query)
+            raise ValueError(f"Field '{field_name}' does not exist in the database.")
+
+    # New Method to Filter by Rescue Type (Water, Mountain/Wilderness, Disaster/Tracking)
+    def filter_by_rescue_type(self, rescue_type):
+        """Filter animals by rescue type (e.g., 'Water Rescue')"""
+        if isinstance(rescue_type, str):
+            self.validate_field('rescue_type')
+            query = {"rescue_type": rescue_type}
+            return self.read(query)
+        else:
+            raise ValueError("rescue_type must be a string.")
+
+    # New Method to Filter by Breed (e.g., 'Labrador', 'German Shepherd')
+    def filter_by_breed(self, breed):
+        """Filter animals by breed (e.g., 'Labrador')"""
+        if isinstance(breed, str):
+            self.validate_field('breed')
+            query = {"breed": breed}
+            return self.read(query)
+        else:
+            raise ValueError("breed must be a string.")
+
+    # New Method to Filter by Both Rescue Type and Breed
+    def filter_by_rescue_and_breed(self, rescue_type, breed):
+        """Filter animals by both rescue type and breed"""
+        if isinstance(rescue_type, str) and isinstance(breed, str):
+            self.validate_field('rescue_type')
+            self.validate_field('breed')
+            query = {"rescue_type": rescue_type, "breed": breed}
+            return self.read(query)
+        else:
+            raise ValueError("Both rescue_type and breed must be strings.")
+
+    # New Method to Filter by Multiple Fields Dynamically
+    def filter_by_multiple_fields(self, **filters):
+        """Filter animals by multiple fields dynamically."""
+        if not filters:
+            raise ValueError("At least one filter must be provided.")
         
-        return result.deleted_count
+        # Validate all filter values to be strings for consistency
+        for key, value in filters.items():
+            if not isinstance(value, str):
+                raise ValueError(f"The value for '{key}' must be a string.")
+            self.validate_field(key)  # Ensure field exists in the document
+
+        query = {key: value for key, value in filters.items()}
+        return self.read(query)
