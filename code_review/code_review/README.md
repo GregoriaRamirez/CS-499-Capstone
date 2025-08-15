@@ -3,6 +3,8 @@
 This section contains my recorded walkthrough for the CS 499 Capstone project.  
 The video is 16:04 minutes and covers the original and enhanced versions of my project, explains my design decisions, and demonstrates how I applied computer science principles.
 
+📄 [Read the full Code Review Journal](code_review_journal.md)
+
 ## 🎥 Code Review Video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DXgBW47WSRQ" title="Animal Shelter Code Review – CS 499 Capstone" frameborder="0" allowfullscreen></iframe>
 
