@@ -2,6 +2,7 @@
 
 This folder contains the enhanced version of my Animal Shelter Dashboard project, completed for the CS 499 Capstone.  
 It builds on the original CS 340 implementation by improving structure, security, and efficiency.  
+The enhanced version was fully **refactored in VS Code**, running a **local Dash application** connected to MongoDB through **MongoDB Compass** for managing records (adding, deleting, and updating).  
 The enhancements span across **Software Design & Engineering**, **Algorithms & Data Structures**, and **Database Integration**.
 
 ## 📌 Key Enhancements
@@ -11,6 +12,7 @@ The enhancements span across **Software Design & Engineering**, **Algorithms & D
 - Improved **filtering performance** with optimized pandas operations (`.isin()`, `.between()`)  
 - Implemented **logging** for debugging and monitoring  
 - Ensured **database connection cleanup** for stability  
+- Integrated with **MongoDB Compass** to securely manage shelter records (insert, update, delete)
 
 ## 📄 Files in This Folder
 - `.env_example` – Template for environment variables  
