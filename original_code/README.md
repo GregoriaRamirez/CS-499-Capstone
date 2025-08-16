@@ -1,11 +1,16 @@
 # Original Code – CS 340 Animal Shelter Project
 
 This folder contains the original version of my Animal Shelter Dashboard project, created in CS 340: Client-Server Development.  
-This version represents the starting point before enhancements were made for the CS 499 Capstone project.
+It represents the starting point before the improvements made in the CS 499 Capstone.
 
+## 📌 Key Features in Original Version
+- Implemented in **Jupyter Notebook** with Python, Dash, and MongoDB  
+- Basic `AnimalShelter` class with CRUD operations  
+- **Hardcoded MongoDB credentials** for database access  
+- Early dashboard features: a searchable data table and simple charts  
 
-The original code was developed in Jupyter Notebook and includes:
-- A basic `AnimalShelter` class with CRUD operations  
-- Hardcoded MongoDB connection credentials  
-- Early dashboard features such as a searchable data table and simple charts  
+## 📄 Files in This Folder
+- `AnimalShelter.ipynb` – Original Jupyter Notebook with code and dashboard  
+- `aac_shelter_outcomes.csv` – Dataset used for the project  
+- Supporting files from the CS 340 course deliverables
 
